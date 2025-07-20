@@ -10,7 +10,7 @@ from pymongo import MongoClient
 
 # --- CONFIG ---
 MODEL_PATH = "workspace/llava_finetuned_2"
-MONGO_URI = "mongodb+srv://hafsabatool:333hafsa@cluster0.lmhxlia.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = ""
 DB_NAME = "productDb"
 COLLECTION_NAME = "products_direct"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
