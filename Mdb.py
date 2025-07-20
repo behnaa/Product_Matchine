@@ -10,7 +10,7 @@ from pymongo.mongo_client import MongoClient
 
 # ====== CONFIG ======
 CA = certifi.where()
-URI = "mongodb+srv://hafsabatool:333hafsa@cluster0.lmhxlia.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+URI = ""
 DB_NAME = "productDb"
 COLLECTION_NAME = "products_direct"
 ORIGINAL_CSV = r"E:\Assignment\data.csv"
